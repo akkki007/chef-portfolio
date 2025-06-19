@@ -40,9 +40,9 @@ const Gallery = () => {
                 </Link>
             </div>
             <nav className="hidden md:flex items-center gap-8">
-              <a href="/" className="text-sm font-medium hover:text-amber-600 transition-colors">
+              <Link href="/" className="text-sm font-medium hover:text-amber-600 transition-colors">
                 Home
-              </a>
+              </Link>
             </nav>
             <Button
               variant="outline"
