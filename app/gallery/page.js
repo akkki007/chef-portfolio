@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { H1, H2 } from '@/components/ui/typography';
 import { ChefHat, Utensils } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-
+import Link from 'next/link';
 
 const Gallery = () => {
     const images = [
@@ -35,7 +35,9 @@ const Gallery = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <ChefHat className="h-6 w-6 text-amber-600" />
-              <span className="text-xl font-bold">Chef Sairaj</span>
+              <Link href="/" className="text-lg font-bold text-amber-600 hover:text-amber-800 transition-colors">
+                <span className="text-xl font-bold">Chef Sairaj</span>
+                </Link>
             </div>
             <nav className="hidden md:flex items-center gap-8">
               <a href="/" className="text-sm font-medium hover:text-amber-600 transition-colors">

@@ -7,6 +7,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
 import { H1, H2, H3, P, Lead, Small } from "@/components/ui/typography"
 import Link from "next/link"
+import { ResumeSections } from "@/components/ResumeSections"
 
 export default function ChefPortfolio() {
   const items = [2, 3, 4, 5, 6,7,8,9,10,11,12,13,14,15,16,17];
@@ -84,7 +85,7 @@ export default function ChefPortfolio() {
             </div>
             <div className="relative h-[400px] md:h-[500px] rounded-2xl overflow-hidden">
               <Image
-                src="/placeholder.svg?height=1000&width=800"
+                src="/pic.jpg"
                 alt="Chef in action"
                 fill
                 className="object-cover"
@@ -96,60 +97,7 @@ export default function ChefPortfolio() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-16 md:py-24 bg-amber-50">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div className="relative h-[400px] rounded-2xl overflow-hidden">
-              <Image src="/placeholder.svg?height=800&width=600" alt="Chef portrait" fill className="object-cover" />
-            </div>
-            <div className="space-y-6">
-              <H2>
-                About <span className="text-amber-600">Chef Sairaj</span>
-              </H2>
-              <P>
-                I began my culinary journey in the heart of Tuscany, where I learned the importance of fresh, seasonal
-                ingredients and traditional cooking methods. My passion for food has taken me around the world, allowing
-                me to blend diverse culinary traditions into my unique style.
-              </P>
-              <P>
-                Today, I bring my expertise to private events, cooking classes, and consulting for restaurants that want
-                to elevate their menu offerings. My philosophy is simple: respect the ingredients, honor tradition, and
-                don&apos;t be afraid to innovate.
-              </P>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="flex items-center gap-2">
-                  <Clock className="h-5 w-5 text-amber-600" />
-                  <div>
-                    <P className="font-medium">15+ Years</P>
-                    <Small className="text-gray-500">Experience</Small>
-                  </div>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Star className="h-5 w-5 text-amber-600" />
-                  <div>
-                    <P className="font-medium">5 Michelin</P>
-                    <Small className="text-gray-500">Stars</Small>
-                  </div>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Users className="h-5 w-5 text-amber-600" />
-                  <div>
-                    <P className="font-medium">1000+</P>
-                    <Small className="text-gray-500">Happy Clients</Small>
-                  </div>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Utensils className="h-5 w-5 text-amber-600" />
-                  <div>
-                    <P className="font-medium">200+</P>
-                    <Small className="text-gray-500">Signature Dishes</Small>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ResumeSections/>
 
       {/* Specialties Section */}
       <section id="specialties" className="py-16 md:py-24">
