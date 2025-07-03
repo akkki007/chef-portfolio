@@ -70,7 +70,7 @@ export const ResumeSections = () => {
     },
     {
       id: 3,
-      title: "Cook",
+      title: "Cook 3",
       company: "JW Marriott",
       period: "1st Jan 2022 - 31st Dec 2022",
       location: "Austin, Texas",
@@ -86,7 +86,7 @@ export const ResumeSections = () => {
     },
     {
       id: 4,
-      title: "Cook",
+      title: "Cook 2",
       company: "Lido House Autograph Collection",
       period: "28th June 2023 - Ongoing",
       location: "Newport Beach, Los Angeles",

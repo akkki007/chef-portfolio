@@ -46,12 +46,6 @@ export default function ChefPortfolio() {
               <a href="/gallery" className="text-sm font-medium hover:text-amber-600 transition-colors">
                 Gallery
               </a>
-              <a href="#testimonials" className="text-sm font-medium hover:text-amber-600 transition-colors">
-                Testimonials
-              </a>
-              <a href="#contact" className="text-sm font-medium hover:text-amber-600 transition-colors">
-                Contact
-              </a>
             </nav>
             <Button
               variant="outline"
@@ -79,7 +73,8 @@ export default function ChefPortfolio() {
                 Crafting Culinary <span className="text-amber-600">Masterpieces</span>
               </H1>
               <Lead>
-                Award-winning chef with over 15 years of experience creating unforgettable dining experiences.
+                With over 3 years of experience, I create unforgettable dining experiences through innovative cuisine and
+                exceptional service.
               </Lead>
               
             </div>
